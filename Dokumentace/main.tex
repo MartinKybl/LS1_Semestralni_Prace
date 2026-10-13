@@ -1,0 +1,43 @@
+\documentclass[12pt]{article} % velikost písma a typ dokumentu
+\usepackage[utf8]{inputenc}  % kódování
+\usepackage[czech]{babel}  % jazykový balík
+\usepackage{graphicx}  % balik nutný pro vkládání obrázků
+\usepackage{indentfirst}  % odsazení prvního řádku v odstavci (někdy se to dělá, někdy ne - co je správně nevím)
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{url}
+
+\begin{document}  % začátek dokumentu - na konci je end ;)
+
+\begin{figure}[h!] % vkládání plovoucího prostředí pro obrázky parametr, vynucuje umístění here!
+\centering % zajištění centrování - pro aktuální 'figure'
+\includegraphics[width=0.4\textwidth]{pic/FAV_cmyk.png} % vložení obrázku - i s cestou jeho umístění !
+\hspace{2cm}  % vložení horizontální mezery
+\includegraphics[width=0.4\textwidth]{pic/KKY_logo_cz_large.png} % vložení obrázku
+\end{figure}
+
+\begin{center} % centrování textu (begin - end)
+
+\LARGE{Semestrální práce z předmětu LS1}\\ % lokální modifikace velikosti textku (relativně k definici v documentclass)
+\large{Návrh systému automatického řízení teploty}
+\vspace{.5cm} % vložení vertikální mezery
+\end{center}
+
+
+\vfill{}  % vyplnění 'prázdnem' - zajistí, že zbytek bude dole na stránce 
+\noindent  % zabrání odsazení nového odsatvce
+Západočeská Univerzita V Plzni \hfill Martin Rob \\  % vyplnění prázdnem - horizontální
+Katedra Kybernetiky \hfill Lukáš Egr\\
+Semestrální práce - LS1 \hfill \today % today vypíše datum - ve formátu definovaném volbou jazyka. 
+\thispagestyle{empty}  % zakáže číslování stránky
+\newpage % zalomení stránky
+\setcounter{page}{1} % nastaví počítadlo stránek
+
+\section{Tady něco bude}
+Snad 
+
+
+\end{document}
+
+
