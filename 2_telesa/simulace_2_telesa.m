@@ -1,13 +1,14 @@
 %% definice konstant
-T_poc = 298.15;
-m = 0.004;
-c_p = 500;
-T_ok = 298.15; %musi byt v kelvinech
-area = 0.0012;
-U = 10;
+T_poc = 23 + 273.15;
+m = 0.004; %hmotnost
+c_p = 500; %tep. kapacita.
+T_ok = 19.4 + 273.15; %musi byt v kelvinech
+A = 0.0012; %ploacha
+A_int = 0.0002; %interakční plocha
+U = 10; %koeficient přestupu do okolí
 sigma = 5.670374e-8; %stefan-boltzmanova konstanta
-epsilon = 0.9; %emisivita (0,1), zatim vychozi hodnota protože nefungujou stranky TCLabu
-K_12 = 0.004; %konstanta????
+epsilon = 0.9; %emisivita 
+alfa = 0.02; %převoda z % na w
 
 
 %% Spuštění simulace pro pozdější porovnání
@@ -15,6 +16,11 @@ out = sim("mat_model_2_telesa.slx");
 
 %% Inicializace hardwaru
 tclab;
+
+h1 = @(level) writePWMDutyCycle(a,'D3',max(0,min(100,level))*1.0/100);
+h2 = @(level) writePWMDutyCycle(a,'D5',max(0,min(100,level))*1.0/100);
+
+figure(1);
 
 % Nastavení obou topení na 0
 h1(0); 
@@ -31,7 +37,7 @@ ht1 = 0;
 ht2 = 0;
 
 
-for i = 1:900
+for i = 1:1800
     tic;
     
     if i == 1 
@@ -39,15 +45,15 @@ for i = 1:900
         ht1 = 50;
         h1(ht1);
     end
-    if i == 300
+    if i == 900
         disp('Zapnutí topení 2 na 30 % a 1 na 0%')
-        ht2 = 30;
+        ht2 = 40;
         h2(ht2);
 
         ht1 = 0;
         h1(ht1);
     end
-    if i == 600
+    if i == 1500
         disp('Vypnutí topení 1 a 2 na 0 %')
         ht1 = 0;
         ht2 = 0;

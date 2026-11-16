@@ -1,17 +1,22 @@
 %% definice konstant
-T_poc = 298.15;%pro SIML integrator, v kelvinech, momentalne je to 25 stupnu C
-m = 0.004;
-c_p = 500;
-T_ok = 293.15; %musi byt v kelvinech
-area = 0.0012;
-U = 10;
+T_poc = 23 + 273.15;
+m = 0.004; %hmotnost
+c_p = 500; %tep. kapacita.
+T_ok = 20 + 273.15; %musi byt v kelvinech
+A = 0.0012; %ploacha
+U = 10; %koeficient přestupu do okolí
 sigma = 5.670374e-8; %stefan-boltzmanova konstanta
-epsilon = 0.9; %emisivita (0,1), zatim vychozi hodnota protože nefungujou stranky TCLabu
+epsilon = 0.9; %emisivita
+alfa = 0.02; %převod z procent na watty
+
 %% Spuštění simulace pro pozdější porovnání
 out = sim("mat_model_1_teleso.slx");
 
 %% Inicializace hardwaru
 tclab;
+
+
+h1 = @(level) writePWMDutyCycle(a,'D3',max(0,min(100,level))*1.0/100);
 
 % Nastavení obou topení na 0
 h1(0); 
@@ -21,21 +26,18 @@ h2(0);
 t1s = [];
 h1s = [];
 cas = [];
-
-tic;
-cas_start = toc;
 ht1 = 0;
+figure(1);
 
-
-for i = 1:1200
-    t_akt = toc - cas_start;
+for i = 1:1800
+    tic;
     
-    if i == 1
+    if i == 10
         disp('Zapnutí topení 1 na 50 %')
         ht1 = 50;
         h1(ht1);
     end
-    if i == 600
+    if i == 1000
         disp('Vypnutí topení 1 na 0 %')
         ht1 = 0;
         h1(ht1);
@@ -45,7 +47,9 @@ for i = 1:1200
     t1 = T1C();
     t1s = [t1s, t1];
     h1s = [h1s, ht1];
-    cas = [cas, t_akt];
+
+    n = length(t1s);
+    cas = linspace(0,n+1,n);
     
     % Vykreslování průběžného stavu
     clf;
