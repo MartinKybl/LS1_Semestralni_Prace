@@ -1,15 +1,18 @@
 %% definice konstant
-T_poc = 23 + 273.15;
+T_poc = 25 + 273.15;
 m = 0.004; %hmotnost
 c_p = 500; %tep. kapacita.
-T_ok = 19.4 + 273.15; %musi byt v kelvinech
-A = 0.0012; %ploacha
-A_int = 0.0002; %interakční plocha
+T_ok = 25 + 273.15; %musi byt v kelvinech
+
+A = 1.2e-3; %ploacha
+A_int = 2.0e-4; %interakční plocha
+
 U = 10; %koeficient přestupu do okolí
 sigma = 5.670374e-8; %stefan-boltzmanova konstanta
 epsilon = 0.9; %emisivita 
-alfa = 0.02; %převoda z % na w
 
+alfa = 0.02; %skalovani inzenyrskych jednotek z procent na Watty dodavaneho vykonu
+alfa2 = 0.02; %druhe topeni ma mensi vykon 0.75W !
 
 %% Spuštění simulace pro pozdější porovnání
 out = sim("mat_model_2_telesa.slx");
@@ -17,8 +20,6 @@ out = sim("mat_model_2_telesa.slx");
 %% Inicializace hardwaru
 tclab;
 
-h1 = @(level) writePWMDutyCycle(a,'D3',max(0,min(100,level))*1.0/100);
-h2 = @(level) writePWMDutyCycle(a,'D5',max(0,min(100,level))*1.0/100);
 
 figure(1);
 
