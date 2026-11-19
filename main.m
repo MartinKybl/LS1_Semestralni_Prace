@@ -34,3 +34,21 @@ plot(out.Q_in_out);
 ylim([-0.5, 2]);
 xlim([0, 1200]);
 title("prubeh vstupu")
+
+%%
+% Připojení k hardware TCLab
+lab = TCLab();
+
+% Výpis maximálního výkonu
+fprintf('Maximum power of heater 1 = %g\n', lab.P1);
+fprintf('Maximum power of heater 2 = %g\n', lab.P2);
+
+disp('Adjusting the maximum power of heater 1.');
+lab.P1 = 100;
+
+% Výpis po úpravě
+fprintf('Maximum power of heater 1 = %g\n', lab.P1);
+fprintf('Maximum power of heater 2 = %g\n', lab.P2);
+
+% Odpojení a uvolnění portu (nahrazuje 'with' blok z Pythonu)
+clear lab;
