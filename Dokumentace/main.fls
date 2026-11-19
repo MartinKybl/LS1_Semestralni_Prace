@@ -162,11 +162,14 @@ INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\czech.
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\czech.lbx
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\lbx\czech.lbx
 OUTPUT main.bcf
+<<<<<<< Updated upstream
 INPUT main.bbl
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
+=======
+>>>>>>> Stashed changes
 INPUT .\pic\FAV_cmyk.png
 INPUT .\pic\FAV_cmyk.png
 INPUT .\pic\FAV_cmyk.png
@@ -199,6 +202,7 @@ INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+<<<<<<< Updated upstream
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -228,6 +232,20 @@ INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ect
 INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
 INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
+=======
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT C:\Users\marob\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
+INPUT main.aux
+OUTPUT main.run.xml
+INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
+>>>>>>> Stashed changes
 INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk
 INPUT C:\Users\marob\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk

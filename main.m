@@ -12,6 +12,16 @@ epsilon = 0.9; %emisivita (0,1), zatim vychozi hodnota protože nefungujou stran
 %Q_in = zatim v siml nastaveno pevne na schovy vstup!!!!
 
 out = sim("mat_model.slx");
+%%
+gfc = figure();
+hold on;
+plot(out.T_out);
+title("Odezva na skokovou změnu výkonu topného tělesa z 0% na 50%",'FontSize',15);
+plot(out.Q_in_out);
+legend('T','10\cdotQ_{in}','FontSize',15);
+xlabel('t [s]','FontSize',15)
+ylabel('T [C]','FontSize',15)
+exportgraphics(gcf, 'odezva_2d.pdf', 'ContentType', 'vector');
 %% plot
 figure(1)
 hold on;

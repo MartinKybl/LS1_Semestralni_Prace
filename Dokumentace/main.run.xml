@@ -41,7 +41,11 @@
   >
 ]>
 <requests version="1.0">
+<<<<<<< Updated upstream
   <internal package="biblatex" priority="9" active="0">
+=======
+  <internal package="biblatex" priority="9" active="1">
+>>>>>>> Stashed changes
     <generic>latex</generic>
     <provides type="dynamic">
       <file>main.bcf</file>
@@ -64,7 +68,11 @@
       <file>czech-iso.lbx</file>
     </requires>
   </internal>
+<<<<<<< Updated upstream
   <external package="biblatex" priority="5" active="0">
+=======
+  <external package="biblatex" priority="5" active="1">
+>>>>>>> Stashed changes
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>

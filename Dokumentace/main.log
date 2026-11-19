@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.27)  19 NOV 2026 19:55
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.27)  19 NOV 2026 20:01
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -208,6 +212,7 @@ Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
  (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count309
+<<<<<<< Updated upstream
 )
 \csq@reset=\count310
 \csq@gtype=\count311
@@ -507,7 +512,305 @@ Package csquotes Info: Redefining alias 'default' -> 'czech'.
  (main.aux
 Package babel Info: 'czech' activates 'czech' shorthands.
 (babel)             Reported on input line 7.
+=======
+>>>>>>> Stashed changes
 )
+\csq@reset=\count310
+\csq@gtype=\count311
+\csq@glevel=\count312
+\csq@qlevel=\count313
+\csq@maxlvl=\count314
+\csq@tshold=\count315
+\csq@ltx@everypar=\toks28
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)) (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count316
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+\c@tabx@nest=\count317
+\c@listtotal=\count318
+\c@listcount=\count319
+\c@liststart=\count320
+\c@liststop=\count321
+\c@citecount=\count322
+\c@citetotal=\count323
+\c@multicitecount=\count324
+\c@multicitetotal=\count325
+\c@instcount=\count326
+\c@maxnames=\count327
+\c@minnames=\count328
+\c@maxitems=\count329
+\c@minitems=\count330
+\c@citecounter=\count331
+\c@maxcitecounter=\count332
+\c@savedcitecounter=\count333
+\c@uniquelist=\count334
+\c@uniquename=\count335
+\c@refsection=\count336
+\c@refsegment=\count337
+\c@maxextratitle=\count338
+\c@maxextratitleyear=\count339
+\c@maxextraname=\count340
+\c@maxextradate=\count341
+\c@maxextraalpha=\count342
+\c@abbrvpenalty=\count343
+\c@highnamepenalty=\count344
+\c@lownamepenalty=\count345
+\c@maxparens=\count346
+\c@parenlevel=\count347
+\blx@tempcnta=\count348
+\blx@tempcntb=\count349
+\blx@tempcntc=\count350
+\c@blx@maxsection=\count351
+\blx@maxsegment@0=\count352
+\blx@notetype=\count353
+\blx@parenlevel@text=\count354
+\blx@parenlevel@foot=\count355
+\blx@sectionciteorder@0=\count356
+\blx@sectionciteorderinternal@0=\count357
+\blx@entrysetcounter=\count358
+\blx@biblioinstance=\count359
+\labelnumberwidth=\skip54
+\labelalphawidth=\skip55
+\biblabelsep=\skip56
+\bibitemsep=\skip57
+\bibnamesep=\skip58
+\bibinitsep=\skip59
+\bibparsep=\skip60
+\bibhang=\skip61
+\blx@bcfin=\read3
+\blx@bcfout=\write3
+\blx@langwohyphens=\language80
+\c@mincomprange=\count360
+\c@maxcomprange=\count361
+\c@mincompwidth=\count362
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'iso-numeric.dbx' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\iso-numeric.dbx
+File: iso-numeric.dbx 2022/03/20 v0.4.1 ISO 690 biblatex data model extension
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count363
+\c@savedafterword=\count364
+\c@annotator=\count365
+\c@savedannotator=\count366
+\c@author=\count367
+\c@savedauthor=\count368
+\c@bookauthor=\count369
+\c@savedbookauthor=\count370
+\c@commentator=\count371
+\c@savedcommentator=\count372
+\c@editor=\count373
+\c@savededitor=\count374
+\c@editora=\count375
+\c@savededitora=\count376
+\c@editorb=\count377
+\c@savededitorb=\count378
+\c@editorc=\count379
+\c@savededitorc=\count380
+\c@foreword=\count381
+\c@savedforeword=\count382
+\c@holder=\count383
+\c@savedholder=\count384
+\c@introduction=\count385
+\c@savedintroduction=\count386
+\c@namea=\count387
+\c@savednamea=\count388
+\c@nameb=\count389
+\c@savednameb=\count390
+\c@namec=\count391
+\c@savednamec=\count392
+\c@translator=\count393
+\c@savedtranslator=\count394
+\c@shortauthor=\count395
+\c@savedshortauthor=\count396
+\c@shorteditor=\count397
+\c@savedshorteditor=\count398
+\c@supervisor=\count399
+\c@savedsupervisor=\count400
+\c@labelname=\count401
+\c@savedlabelname=\count402
+\c@institution=\count403
+\c@savedinstitution=\count404
+\c@lista=\count405
+\c@savedlista=\count406
+\c@listb=\count407
+\c@savedlistb=\count408
+\c@listc=\count409
+\c@savedlistc=\count410
+\c@listd=\count411
+\c@savedlistd=\count412
+\c@liste=\count413
+\c@savedliste=\count414
+\c@listf=\count415
+\c@savedlistf=\count416
+\c@location=\count417
+\c@savedlocation=\count418
+\c@organization=\count419
+\c@savedorganization=\count420
+\c@origlocation=\count421
+\c@savedoriglocation=\count422
+\c@origpublisher=\count423
+\c@savedorigpublisher=\count424
+\c@publisher=\count425
+\c@savedpublisher=\count426
+\c@language=\count427
+\c@savedlanguage=\count428
+\c@origlanguage=\count429
+\c@savedoriglanguage=\count430
+\c@pageref=\count431
+\c@savedpageref=\count432
+\shorthandwidth=\skip62
+\shortjournalwidth=\skip63
+\shortserieswidth=\skip64
+\shorttitlewidth=\skip65
+\shortauthorwidth=\skip66
+\shorteditorwidth=\skip67
+\locallabelnumberwidth=\skip68
+\locallabelalphawidth=\skip69
+\localshorthandwidth=\skip70
+\localshortjournalwidth=\skip71
+\localshortserieswidth=\skip72
+\localshorttitlewidth=\skip73
+\localshortauthorwidth=\skip74
+\localshorteditorwidth=\skip75
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+\c@textcitecount=\count433
+\c@textcitetotal=\count434
+\c@textcitemaxnames=\count435
+\c@biburlbigbreakpenalty=\count436
+\c@biburlbreakpenalty=\count437
+\c@biburlnumpenalty=\count438
+\c@biburlucpenalty=\count439
+\c@biburllcpenalty=\count440
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count441
+)
+Package biblatex Info: Trying to load bibliography style 'iso-numeric'...
+Package biblatex Info: ... file 'iso-numeric.bbx' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\iso-numeric.bbx
+File: iso-numeric.bbx 2022/03/20 v0.4.1 ISO 690 biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'iso'...
+Package biblatex Info: ... file 'iso.bbx' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\iso.bbx
+File: iso.bbx 2022/03/20 v0.4.1 ISO 690 biblatex bibliography style
+Package biblatex-iso690 Info: Space colon enabled: false.
+Package biblatex-iso690 Info: Total pages enabled: false.
+Package biblatex-iso690 Info: Short numeration enabled: false.
+Package biblatex-iso690 Info: Thesis info in the notes section enabled: true.
+Package biblatex-iso690 Info: URL field enabled: true.
+Package biblatex-iso690 Info: ISBN field enabled: true.
+Package biblatex-iso690 Info: DOI field enabled: true.
+Package biblatex-iso690 Info: eprint field enabled: true.
+Package biblatex-iso690 Info: Article publication info enabled: false.
+Package biblatex-iso690 Info: Use current language for the bibliography: false.
+Package biblatex-iso690 Info: Use no end dot for the bibliography entries: false.
+Package biblatex Info: Delimiter 'multinamedelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'editortypedelim' in context '' already defined, overwriting.
+Package biblatex Info: Delimiter 'authortypedelim' in context '' already defined, overwriting.
+))
+Package biblatex Info: Trying to load citation style 'iso-numeric'...
+Package biblatex Info: ... file 'iso-numeric.cbx' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\iso-numeric.cbx
+File: iso-numeric.cbx 2022/03/20 v0.4.1 ISO 690 biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load citation style 'iso-fullcite'...
+Package biblatex Info: ... file 'iso-fullcite.cbx' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\iso-fullcite.cbx
+File: iso-fullcite.cbx 2022/03/20 v0.4.1 ISO 690 biblatex fullcite modifications
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\footfullcite'.
+)
+Package biblatex Info: Redefining '\parencite'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count442
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2026-01-19 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+))
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'czech'.
+ (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -524,6 +827,11 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
+<<<<<<< Updated upstream
+=======
+Package babel Info: 'czech' activates 'czech' shorthands.
+(babel)             Reported on input line 17.
+>>>>>>> Stashed changes
  (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count443
@@ -567,8 +875,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
+<<<<<<< Updated upstream
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
+=======
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
+>>>>>>> Stashed changes
 Package biblatex Info: Reference section=0 on input line 17.
 Package biblatex Info: Reference segment=0 on input line 17.
 <pic/FAV_cmyk.png, id=1, 597.432pt x 293.1753pt>
@@ -581,25 +895,67 @@ File: pic/KKY_logo_cz_large.png Graphic file (type png)
 <use pic/KKY_logo_cz_large.png>
 Package pdftex.def Info: pic/KKY_logo_cz_large.png  used on input line 23.
 (pdftex.def)             Requested size: 155.99762pt x 57.19933pt.
- [1
+[1
 
+<<<<<<< Updated upstream
 {C:/Users/marob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./pic/FAV_cmyk.png> <./pic/KKY_logo_cz_large.png>] [1] (C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+=======
+{C:/Users/marob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./pic/FAV_cmyk.png> <./pic/KKY_logo_cz_large.png>]
+
+LaTeX Warning: Reference `eq:zredTclab' on page 1 undefined on input line 52.
+
+
+LaTeX Warning: Reference `eq:pohRov' on page 1 undefined on input line 75.
+
+[1]
+
+LaTeX Warning: Reference `eq:pohRov' on page 2 undefined on input line 77.
+
+
+LaTeX Warning: Reference `fig:simlModPR' on page 2 undefined on input line 82.
+
+(C:\Users\marob\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+>>>>>>> Stashed changes
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
 Overfull \hbox (18.80371pt too wide) in paragraph at lines 85--86
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
+<<<<<<< Updated upstream
 <pic/mat_model_jednoTeleso.png, id=24, 716.6775pt x 423.08063pt>
 File: pic/mat_model_jednoTeleso.png Graphic file (type png)
 <use pic/mat_model_jednoTeleso.png>
 Package pdftex.def Info: pic/mat_model_jednoTeleso.png  used on input line 92.
 (pdftex.def)             Requested size: 272.99881pt x 161.15964pt.
 [2 <./pic/mat_model_jednoTeleso.png>]
+=======
+
+LaTeX Warning: File `pic/mat_model_jednoTeleso.png' not found on input line 92.
+
+
+c:/Users/marob/Documents/ZÄŒU/3. semetr/LS1/LS1_Semestralni_Prace/Dokumentace/main.tex:92: Package pdftex.def Error: File `pic/mat_model_jednoTeleso.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ...\textwidth]{pic/mat_model_jednoTeleso.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[2] [3]
+
+LaTeX Warning: Citation 'apmonitor_tclab' on page 4 undefined on input line 100.
+
+
+>>>>>>> Stashed changes
 Overfull \hbox (48.72247pt too wide) in paragraph at lines 105--118
  [][] 
  []
 
+<<<<<<< Updated upstream
 <pic/odezva_2d.pdf, id=32, 673.51625pt x 451.6875pt>
 File: pic/odezva_2d.pdf Graphic file (type pdf)
 <use pic/odezva_2d.pdf>
@@ -611,15 +967,67 @@ Overfull \hbox (19.41745pt too wide) in paragraph at lines 173--173
  []
 
 [4] [5] (main.aux)
+=======
+
+Overfull \hbox (12.16547pt too wide) in paragraph at lines 100--119
+[]\T1/cmr/m/n/12 Hodnoty kon-stant a ve-li-£in byly zís-kány z webu TC-Lab [[]]
+ []
+
+
+LaTeX Warning: File `pic/odezva_2d.pdf' not found on input line 122.
+
+
+c:/Users/marob/Documents/ZÄŒU/3. semetr/LS1/LS1_Semestralni_Prace/Dokumentace/main.tex:122: Package pdftex.def Error: File `pic/odezva_2d.pdf' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122 ...s[width=0.9\textwidth]{pic/odezva_2d.pdf}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `g:odezvaNa50Vykon' on page 4 undefined on input line 127.
+
+
+LaTeX Warning: Reference `tab:fyz_parametry' on page 4 undefined on input line 134.
+
+[4] [5]
+
+LaTeX Warning: Empty bibliography on input line 172.
+
+[6] (main.aux)
+>>>>>>> Stashed changes
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+<<<<<<< Updated upstream
+=======
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+>>>>>>> Stashed changes
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  16075 strings out of 467867
  288271 string characters out of 5418334
  1125135 words of memory out of 5000000
@@ -631,6 +1039,19 @@ Here is how much of TeX's memory you used:
 Output written on main.pdf (6 pages, 325286 bytes).
 PDF statistics:
  392 PDF objects out of 1000 (max. 8388607)
+=======
+ 16087 strings out of 467867
+ 288925 string characters out of 5418334
+ 1123809 words of memory out of 5000000
+ 44819 multiletter control sequences out of 15000+600000
+ 638711 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 63i,12n,66p,817b,1699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\marob\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/marob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (7 pages, 268259 bytes).
+PDF statistics:
+ 340 PDF objects out of 1000 (max. 8388607)
+>>>>>>> Stashed changes
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
