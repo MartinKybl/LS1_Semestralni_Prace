@@ -2,11 +2,15 @@
 T_poc = 23 + 273.15;
 m = 0.004; %hmotnost
 c_p = 500; %tep. kapacita.
-T_ok = 20 + 273.15; %musi byt v kelvinech
+T_ok = 23 + 273.15; %musi byt v kelvinech
+
 A = 0.0012; %ploacha
+
+
 U = 10; %koeficient přestupu do okolí
 sigma = 5.670374e-8; %stefan-boltzmanova konstanta
 epsilon = 0.9; %emisivita
+
 alfa = 0.02; %převod z procent na watty
 
 %% Spuštění simulace pro pozdější porovnání
@@ -32,12 +36,12 @@ figure(1);
 for i = 1:1800
     tic;
     
-    if i == 10
+    if i == 1
         disp('Zapnutí topení 1 na 50 %')
         ht1 = 50;
         h1(ht1);
     end
-    if i == 1000
+    if i == 900
         disp('Vypnutí topení 1 na 0 %')
         ht1 = 0;
         h1(ht1);
@@ -71,11 +75,26 @@ h1(0);
 
 %% Finální porovnání (Zadání 2f)
 figure(2);
+
+fig = figure(2);
+theme(fig, 'light'); % přepne tmavý motiv grafu na světlý (MATLAB R2023b+)
+set(fig, 'Color', 'w'); % zajistí čistě bílé vnější pozadí okna
+
+% Levá osa Y: Teploty (reálný systém vs. simulace)
+yyaxis left
 plot(cas, t1s, 'r', 'LineWidth', 2); hold on;
-% Předpokládá se standardní formát výstupu ze Simulinku 
-% Pokud máte pole přímo v out, upravte volání (např. out.tout, out.T_out)
 plot(out.T_out.Time, out.T_out.Data, 'b', 'LineWidth', 2);
-title('Porovnání reálného systému a matematického modelu');
-xlabel('Čas (s)'); ylabel('Teplota');
-legend('Reálný systém TCLab', 'Simulace (mat_model.slx)', 'Location', 'SouthEast');
+ylabel('Teplota [°C]');
+ylim([0 100]);
+xlim([0 1800]);
+% Pravá osa Y: Vstupní signál topení
+yyaxis right
+% 1) Pokud vykreslujete výkon v procentech (0 - 100 %):
+stairs(cas, h1s, 'Color', [1 0.5 0], 'LineWidth', 1.8);
+ylabel('Výkon topení Q_1 [%]');
+ylim([0 100]); % rozsah pro přehledné zobrazení schodu
+
+% Popisky, legenda a mřížka
+xlabel('Čas [s]');
+legend('Reálný systém TCLab', 'Simulace', 'Vstup topení Q_1');
 grid on;

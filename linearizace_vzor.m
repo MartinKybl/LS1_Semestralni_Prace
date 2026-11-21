@@ -35,7 +35,7 @@ sig = 5.67e-8; %SB konstanta
 
 %Prac.bod
 Q10 = 60;
-Q20 = 40;
+Q20 = 80;
 
 
 %definice novych pomocnych konstant

@@ -13,6 +13,7 @@
 \usepackage{csquotes}
 \usepackage[backend=biber, style=iso-numeric]{biblatex}
 \addbibresource{citations.bib}
+\renewcommand{\thesubsection}{\thesection.\alph{subsection}} % číslování 1.a 1.b ....
 
 \begin{document}  % začátek dokumentu - na konci je end ;)
 
@@ -39,6 +40,25 @@ Semestrální práce - LS1 \hfill \today % today vypíše datum - ve formátu de
 \thispagestyle{empty}  % zakáže číslování stránky
 \newpage % zalomení stránky
 \setcounter{page}{1} % nastaví počítadlo stránek
+
+\section{Seznámení s modelem teplotního systému TClab}
+\subsection{Popis struktury systému z pohledu řízení}
+Systém se skládá ze dvou topných těles, a dvou senzorů teploty. Konkrétně setTopná tělesa skládají z tranzistorů (TIP31C) a na nich umístěných chladičů, výsledná teplota je pak měřená teplotními senzory (TMP36). Jednotlivá topná tělesa lze řídit jednotlivě.
+
+Z pohledu řízení má systém dva vstupy (výkony jednotlivých topení) a dva výstupy (naměřené teploty). Neboli naše měřené veličiny jsou aktuální teploty a akční veličiny jsou výkony jednotlivých topnách těles.
+
+\subsection{Fyzikální paramtery systému}
+Fyzikální parametry systému, které budou ovlívňovat dynamiku systému jsou následující
+
+\begin{itemize}
+    \item \textbf{Tepelná kapacita:} Hmotnost topného tělesa a jeho měrná tepelná kapacita ($m \cdot c_p$) nám určuje ovlivňujě, jak rychle/pomalu se tělesa zahřívají/chladnou.
+    
+    \item \textbf{Odvod tepla do okolí:} Povrch tělesa ($A$), odkud teplo odchází do okolí, součinitel přestupu tepla prouděním ($U$) a emisivita ($\epsilon$), která ovliňujew ztráty tepelným zářením.
+     
+    \item \textbf{Vzájemné ovliňiování:} Interakční plocha obou těles ($A_{int}$), která určuje jak rychle se teplo přenáší mezi tělesy.
+    
+    \item \textbf{Výkon topných těles} Vstupní výkon obou těles ($Q_1$ a $Q_2$).
+\end{itemize}
 
 \section{Matematický model systému}
 \subsection{Odvození pohybové rovnice systému s jedním tělesem}

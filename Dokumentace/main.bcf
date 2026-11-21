@@ -651,7 +651,6 @@
     <bcf:option datatype="boolean">spacecolon</bcf:option>
     <bcf:option datatype="boolean">pagetotal</bcf:option>
     <bcf:option datatype="boolean">shortnumeration</bcf:option>
-    <bcf:option datatype="boolean">thesisinfoinnotes</bcf:option>
     <bcf:option datatype="boolean">url</bcf:option>
     <bcf:option datatype="boolean">isbn</bcf:option>
     <bcf:option datatype="boolean">doi</bcf:option>
@@ -659,6 +658,9 @@
     <bcf:option datatype="boolean">articlepubinfo</bcf:option>
     <bcf:option datatype="boolean">currentlang</bcf:option>
     <bcf:option datatype="boolean">noenddot</bcf:option>
+    <bcf:option datatype="boolean">bibacrosc</bcf:option>
+    <bcf:option datatype="boolean">familynamesc</bcf:option>
+    <bcf:option datatype="boolean">givennamesfirst</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -1366,6 +1368,10 @@
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
       <bcf:field fieldtype="list" datatype="name">supervisor</bcf:field>
       <bcf:field fieldtype="field" datatype="literal">dateaddon</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">eisbn</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">eissn</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">lccn</bcf:field>
+      <bcf:field fieldtype="field" datatype="literal">din</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2135,6 +2141,15 @@
     </bcf:entryfields>
     <bcf:entryfields>
       <bcf:field>dateaddon</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:field>eisbn</bcf:field>
+      <bcf:field>eissn</bcf:field>
+      <bcf:field>lccn</bcf:field>
+    </bcf:entryfields>
+    <bcf:entryfields>
+      <bcf:entrytype>misc</bcf:entrytype>
+      <bcf:field>din</bcf:field>
     </bcf:entryfields>
     <bcf:multiscriptfields>
       <bcf:field>abstract</bcf:field>
