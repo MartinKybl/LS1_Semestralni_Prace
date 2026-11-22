@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1795281705.3321 "main.bcf" "main.bbl" "main" 1795288327.34738 0
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1795368499.44626 -1
   "citations.bib" 1795126863 305 467c3af3346b3af35b9e790739407d2f ""
-  "main.bcf" 1795288327 109186 f3b839fc371470b637ff4792f3b4555e "pdflatex"
+  "main.bcf" 1795368499 109186 f3b839fc371470b637ff4792f3b4555e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1795288323.94816 "d:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" "main.pdf" "main" 1795288327.34866 0
+["pdflatex"] 1795368496.08564 "d:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" "main.pdf" "main" 1795368499.4473 0
   "C:/Users/lukas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795281678 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lukas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1795281690 31952 20358b577654c4409fe61b31b16e643a ""
   "C:/Users/lukas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1795281692 40136 3b557cd6f5ed453c1eaba032182be14c ""
@@ -115,15 +115,18 @@
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/latex/regexpatch/regexpatch.sty" 1616691026 26367 da2b2fdb25f2266b977c5490879dba9b ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1761901070 1618 30b01152766afcef2ed8f904cfdd3cc6 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "d:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" 1795288323 10477 a10632ba4152a63cbc0fceba91cd4d2d ""
-  "main.aux" 1795288327 2619 135ea8ce0385854bb86c58af6755de9a "pdflatex"
+  "d:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" 1795368491 16321 73dbced872810aa0a2ae403a24824234 ""
+  "graphs/2_f_model_vs_simul.pdf" 1795285668 49919 68d7026ee2a44ab69f23625dc588be79 ""
+  "graphs/2_h_model_vs_simul.pdf" 1795366789 73357 8fb1c90b09fb465fdb634f8111237471 ""
+  "graphs/2d_odezva.pdf" 1795354041 36713 dc37398d99ed02067750571fbfc9f1af ""
+  "main.aux" 1795368499 3770 7ead01f1d3f09f4c5a1d9e820574ecc1 "pdflatex"
   "main.bbl" 1795281708 2029 ba4fa3b50a030c600fd79f55c0c42b0c "biber main"
-  "main.run.xml" 1795288327 2440 e014be9d8196e6a05217c9a9203948e9 "pdflatex"
-  "main.tex" 1795288323 10477 a10632ba4152a63cbc0fceba91cd4d2d ""
+  "main.run.xml" 1795368499 2440 e014be9d8196e6a05217c9a9203948e9 "pdflatex"
+  "main.tex" 1795368491 16321 73dbced872810aa0a2ae403a24824234 ""
+  "pic/2_g_mat_mod_2_t.pdf" 1795361626 134390 dc1e723ccef5ae25f88754ab86aa656d ""
   "pic/FAV_cmyk.png" 1794258119 43683 d0dc2d88366ce9b050b0e5863d3ff1ed ""
   "pic/KKY_logo_cz_large.png" 1777452544 63184 a45cf693c48c8dc1543ce8f92d968501 ""
-  "pic/mat_model_jednoTeleso.png" 1795126864 39509 01f88fdf85ca5c47fbd5781b5bb28b8d ""
-  "pic/odezva_2d.pdf" 1795126864 19486 069c121900e1be4b82fb78ca4d91e8d5 ""
+  "pic/mat_model_jednoTeleso.png" 1795348493 46992 5184c2b60f2e2713aabf885da8bda0b8 ""
   (generated)
   "main.aux"
   "main.bcf"

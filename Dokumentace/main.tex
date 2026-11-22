@@ -60,6 +60,11 @@ Fyzikální parametry systému, které budou ovlívňovat dynamiku systému jsou
     \item \textbf{Výkon topných těles} Vstupní výkon obou těles ($Q_1$ a $Q_2$).
 \end{itemize}
 
+\subsection{Fyzikální interakce mezi vstupy a výstupy}
+Fyzikální interakce, které ovlivňují výstupy, jsou způsobeny umístěním topných těles. Jelikož je vzádlenost mezi chladiči jednotlivých těles minimální, při spuštění jednoho tělesa neovlivňujeme teplotu pouze toho daného tělesa, ale zároveň ovlivňjeme teplotu i tělesa druhého.
+
+Tyto problémy by se dali vyřešit lepším rozmístěním těles nebo přidáním aktivního chlazení, díky kterému bychom předešli vzájemnému ohřívání těles.
+
 \section{Matematický model systému}
 \subsection{Odvození pohybové rovnice systému s jedním tělesem}
 Abychom odvodili pohybovou rovnici systému musíme nejdříve porozumět výchozí rovnici, vycházející z 1. termodynamického zákona o zachování energie v otevřeném systému
@@ -88,23 +93,23 @@ kde $Q_T$ je výkon topného tělesa, $Q_e$ výkon, který se vyzáří emisí a
 
 \begin{equation}
     \label{eq:pohRov}
-    m c_p \frac{dT}{dt} =  Q_T - \varepsilon \sigma S (T^4 - T_{ref}^4) - U S (T - T_{ref}),
+    m c_p \frac{dT}{dt} =  \alpha Q_T - \varepsilon \sigma A (T^4 - T_{ref}^4) - U A (T - T_{ref}),
 \end{equation}
-kde S je plocha topného tělesa, $\varepsilon$ emisivita, $\sigma$ Stefan-Boltzmannova konstanta a U je součinitel prostupu tepla.
+kde A je plocha topného tělesa, $\varepsilon$ emisivita, $\sigma$ Stefan-Boltzmannova konstanta, $\alpha$ je koeficient pro převod z procentuálního výkonu na watty a U je součinitel prostupu tepla.
 \subsection{Rozhodnutí (ne)linearity systému}
-Lineární systémy jsou charakteristické principem superpozice. U našeho systému s pohybovou rovnicí v tomto tvaru (viz rovnice \ref{eq:pohRov}) princip neplatí. Důvodem je člen ztrát emisí, kde se nachází čtvrtá mocnina teploty a také nenulové konstantní členy teploty okolí($T_ref$).
+Lineární systémy jsou charakteristické principem superpozice. U našeho systému s pohybovou rovnicí v tomto tvaru (viz rovnice \ref{eq:pohRov}) princip neplatí. Důvodem je člen ztrát emisí, kde se nachází čtvrtá mocnina teploty a také nenulové konstantní členy teploty okolí($T_{ref}$).
 \subsection{Simulační model}
 Pro namodelování v softwaru Simulink, je nutné z pohybové rovnice (viz \ref{eq:pohRov}) vyjádřit derivaci teploty.
 \begin{equation}
     \label{eq:matModel}
-    \frac{dT}{dt} =  \frac{1}{m c_p}\left(Q_T - \varepsilon \sigma S (T^4 - T_{ref}^4) - U S (T - T_{ref})\right),
+    \frac{dT}{dt} =  \frac{1}{m c_p}\left(Q_T - \varepsilon \sigma A (T^4 - T_{ref}^4) - U A (T - T_{ref})\right),
 \end{equation}
 Abychom upravenou rovnici mohli vložit do bloku MatLab funkce (viz obrázek \ref{fig:simlModPR}), je nutné zápis přeložit do matlab kódu.
 
 \begin{lstlisting}[language=MatLab]
-function out = fcn(m,c_p,U,area,Q_in,T_ok,sigma,epsilon,T)
-    out = (1/(m*c_p))*(Q_in - U*area*(T-T_ok) 
-    - sigma*epsilon*area*((T^4)-(T_ok^4)));
+function out = fcn(m,c_p,U,A,Q_in,T_ok,sigma,epsilon,T, alfa)
+out = (1/(m*c_p)) * (alfa*Q_in - U*A*(T-T_ok) - 
+-sigma*epsilon*A*( (T^4) - (T_ok^4) ) );
 \end{lstlisting}
 Na výstup modelu pohybové rovnice (předchozí matlab funkce), tedy derivaci teploty, je nutné použít integrátor s poč. podmínkou $T_{(0)}=T_{\text{okolí}}=293.15 \text{K}$. Integrací získáme teplotu $\text{T}$, kterou přivedeme na příslušný vstup.
 \begin{figure}[htbp]
@@ -128,7 +133,7 @@ Hodnoty konstant a veličin byly získány z webu TCLab \cite{apmonitor_tclab}
         \hline
         $m$ & Hmotnost ohřívacího tělesa & $0{,}004$ & $\mathrm{kg}$ \\
         $c_p$ & Měrná tepelná kapacita tělesa & $500$ & $\mathrm{J \cdot kg^{-1} \cdot K^{-1}}$ \\
-        $S$ & Plocha povrchu tělesa & $0{,}0012$ & $\mathrm{m^2}$ \\
+        $A$ & Plocha povrchu tělesa & $0{,}0012$ & $\mathrm{m^2}$ \\
         $U$ & Součinitel prostupu tepla (konvekce) & $10$ & $\mathrm{W \cdot m^{-2} \cdot K^{-1}}$ \\
         $\varepsilon$ & Emisivita povrchu tělesa & $0{,}9$ & $-$ \\
         $\sigma$ & Stefan-Boltzmannova konstanta & $5{,}670374 \cdot 10^{-8}$ & $\mathrm{W \cdot m^{-2} \cdot K^{-4}}$ \\
@@ -139,7 +144,7 @@ Hodnoty konstant a veličin byly získány z webu TCLab \cite{apmonitor_tclab}
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{pic/odezva_2d.pdf}
+    \includegraphics[width=0.9\textwidth]{graphs/2d_odezva.pdf}
     \caption{Průběh odezvy na skokovou změnu vstupu tělesa}
     \label{g:odezvaNa50Vykon}
 \end{figure}
@@ -149,7 +154,7 @@ Odezva systému (viz Obrázek \ref{g:odezvaNa50Vykon}) je aperiodická a stabiln
 \subsection{Převažující ztráty}
 Je nutné zjistit, jaké ztráty převažují v pracovních podmínkách našeho tělesa ($20-100 ^\circ \text{C}$). Je patrné, že kvůli malé hodnotě Stefan-Boltzmannovy konstanty se pro menší hodnoty teploty bude nejvíce podílet ztráta prouděním. Nalezneme teplotní bod kdy ztráty emisí budou ekvivalentní se ztrátami prouděním.
 \begin{equation*}
-    U S (T-T_{ok}) = S \varepsilon \sigma (T^4 - T_{ok}^4)
+    U A (T-T_{ok}) = A \varepsilon \sigma (T^4 - T_{ok}^4)
 \end{equation*}
 Dosadíme hodnoty z tabulky \ref{tab:fyz_parametry}.
 \begin{equation*}
@@ -188,6 +193,78 @@ S využitím online řešiče získáme hodnotu teploty, pro kterou si jsou hodn
     T = 495,4 \text{K} \approx 222 ^{\circ}\text{C}
 \end{equation*}
 Výsledek indikuje, že pro naše pracovní rozmezí $20-100 ^\circ \text{C}$ se nejvíce projevují ztráty prouděním.
+
+\subsection{Reálný model a porovnání se simulací}
+Experiment z bodu 2.d jsme zopakovali pro reálný systém. Vstupní výkon i délka zůstala pro jednodušší porovnání stejná. Naměřená a simulovaná data můžeme vidět  v Grafu \ref{g:porovnani_model_vs_simul}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{graphs/2_f_model_vs_simul.pdf}
+    \caption{Porovnání reálného a simulovaného systému}
+    \label{g:porovnani_model_vs_simul}
+\end{figure}
+
+Při porovnání simulovaného a reálného systému si můžeme všimnout, že ustálená teplota po ohřevu i po následném ochlazení se velmi dobře shoduje. 
+
+Pokud se ale podíváme reakci vůči skokové změně výkonu, je patrné že reálný systém reaguje o něco pomaleji. To je způsobeno tím, že teplo, které vzniká na trainzistoru se musí vedením nejdříve přenést na hliníkový chladič a poté přes teplovodivou pastu až do našeho teplotního senzoru. Každá z těchto součástek má svojí tepelnou kapacitu a tepelný odpor, dík čemuž vzníká opoždění na reakci skokových změn.
+
+V okamžiku skokové změny je také vidět náznak infelxního bodu u reálného systému, tedy pozvolnou reakci na vstupní signál, zatímco simulovaný systém reaguje na vstup s maximální strmostí v čase $t=0$.
+
+
+\textbf{Závěr:} Reálný systém tedy není systémem 1. řádu, jako simulace, ale jedná se o systém vyššího řádu.
+
+\subsection{Rozšíření modelu o druhé těleso}
+Matematický model systému jsme rozšířili o druhé topné těleso. Tím pádem jsme rozšíříli popis systému o jednu differnciální rovnici a o popis vzájemné výměny tepla mezi tělesy. Vzájemná výměna tepla je rozdělena na přestup pomocí proudění tedy konvekční člen $Q_c$  přestup pomocí vyzařování $Q_r$:
+$$Q_c = U A_{int}(T_2 - T_1)$$
+
+$$Q_r = \varepsilon \sigma A_{int} (T_2^4 - T_1^4)$$
+
+kde $A_{int}$ je interakční plocha mezi tělesy.
+
+Rovnice popisující model pro dvě tělesa jsou následující:
+
+$$m c_p \dot{T}_1 = \alpha Q_1 - U A (T_1 - T_{ok}) - \varepsilon \sigma A (T_1^4 - T_{ok}^4) - Q_c - Q_r$$
+
+$$m c_p \dot{T}_2 = \alpha Q_2 - U A (T_2 - T_{ok}) - \varepsilon \sigma A (T_2^4 - T_{ok}^4) + Q_c + Q_r$$
+
+Po dosazení a upravení:
+
+\textbf{Těleso 1}
+$$m c_p \dot{T}_1 = \alpha Q_1 - U A (T_1 - T_{ok}) - \varepsilon \sigma A (T_1^4 - T_{ok}^4) - U A_{int} (T_1 - T_2) - \varepsilon \sigma A_{int} (T_1^4 - T_2^4)$$
+
+
+\textbf{Těleso 2}
+$$m c_p \dot{T}_2 = \alpha Q_2 - U A (T_2 - T_{ok}) - \varepsilon \sigma A (T_2^4 - T_{ok}^4) + U A_{int} (T_1 - T_2) + \varepsilon \sigma A_{int} (T_1^4 - T_2^4)$$
+
+Pro zachování zákonu energie jsou členy $Q_r$ a $Q_c$ v druhé rovnici s opačným znaménkem.
+
+\subsubsection*{Simulink}
+Pro namodelování systému v simulinku, jsme obdobně jako v kroku 2.c z rovnic vyjádřili první derivace teplot pro jednotlivá tělesa. Vyjádřené rovnice jsme poté přepsali do bloků MATLAB Function. S tím že jsme jednotlivé výstupy obou funkcí propojili s tou druhou (viz Obrázek \ref{g:2_g_porovnani}).
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{pic/2_g_mat_mod_2_t.pdf}
+    \caption{Matematický model pro dvě topná tělesa}
+    \label{g:2_g_porovnani}
+\end{figure}
+
+\subsection{Experiment na vzájemné působení těles}
+Pro ověření rovnic jsme zopakovli experminet 2.f pro systém s dvěmi tělesi. V tomto experimentu jsme v čase $t=1$ definovali vstup $Q_1 = 50\%$, následně v čase $t=900$ vstup $Q_1 = 0\%$ a $Q_2 = 40\%$ a nakonec v čase $t=1500$ $Q_1 = Q_2 = 0\%$. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.9\textwidth]{graphs/2_h_model_vs_simul.pdf}
+    \caption{Srovnání simulace a reálného systému pro dvě tělesa}
+    \label{g:2_h_porovnani}
+\end{figure}
+
+Pokud se podíváme na průběh experimentu (viz Graf \ref{g:2_h_porovnani}), můžeme vidět, že se topná tělesa ovlivňují navzájem, jelikož i přestože těleso 2 bylo vypnuté, jeho teplta se zvyšovala.
+
+Pokud porovnáme průběh simualce a reálného systému můžeme vidět několik rozdílů. Například při prvním ustálení teplot se simulační a reálný systém shoduje u aktivního tělesa. U neaktivního tělesa se ale výrazně odlišuje ustálená teplota těchto dvou systémů. Stejně tomu tak je i při druhých ustálených teplot, kde se opět systémy shodují pouze u aktivních těles. Výsledná teplota na konci experimentu se již neshoduje ani u jednoho tělesa.
+
+\textbf{Závěr:} Rozdíly u neaktivních těles mohou být způsobeny tím, že simulace uvažuje sdílení tepla pouze přes proudění a vyzařování. Samotné tělesa jsou, ale umístěny blízko sebe na jedné desce plošných spojů, tudíž dochází vedení tepla i přes tuto společnou desku.
+
+Nepřesné ale mohou být i výrobcem dodané parametry, jako například koeficient přestupu tepla $U$, emistivita $\varepsilon$ a určení ploch $A$ a $A_{int}$. Rozdíl v jakémkoliv z těchto koeficientů by nám dal odlišní výsledek tohoto experimentu.
 
 \printbibliography
 \end{document}

@@ -1,8 +1,8 @@
 %% definice konstant
-T_poc = 25 + 273.15;
+T_poc = 21 + 273.15;
 m = 0.004; %hmotnost
 c_p = 500; %tep. kapacita.
-T_ok = 25 + 273.15; %musi byt v kelvinech
+T_ok = 21 + 273.15; %musi byt v kelvinech
 
 A = 1.2e-3; %ploacha
 A_int = 2.0e-4; %interakční plocha
@@ -98,13 +98,18 @@ h1(0);
 
 %% Finální porovnání (Zadání 2f)
 figure(2);
+
+fig = figure(2);
+theme(fig, 'light'); % přepne tmavý motiv grafu na světlý (MATLAB R2023b+)
+set(fig, 'Color', 'w'); % zajistí čistě bílé vnější pozadí okna
 plot(cas, t1s, 'r', 'LineWidth', 2, 'DisplayName', 'Reálný 1'); hold on;
-plot(cas, t2s, 'g', 'LineWidth', 2, 'DisplayName', 'Reálný 2');
+plot(cas, t2s, 'b', 'LineWidth', 2, 'DisplayName', 'Reálný 2');
 % Předpokládá se standardní formát výstupu ze Simulinku 
 % Pokud máte pole přímo v out, upravte volání (např. out.tout, out.T_out)
-plot(out.T_out_1.Time, out.T_out_1.Data, 'y', 'LineWidth', 2, 'DisplayName', 'Simulace 1');
-plot(out.T_out_2.Time, out.T_out_2.Data, 'c', 'LineWidth', 2, 'DisplayName', 'Simulace 2');
-title('Porovnání reálného systému a matematického modelu');
-xlabel('Čas (s)'); ylabel('Teplota');
+plot(out.T_out_1.Time, out.T_out_1.Data, '--r', 'LineWidth', 2, 'DisplayName', 'Simulace 1');
+plot(out.T_out_2.Time, out.T_out_2.Data, '--b', 'LineWidth', 2, 'DisplayName', 'Simulace 2');
+xlabel('Čas [s]'); ylabel('Teplota [°C]');
+ylim([20 70]);
+xlim([0 1800]);
 legend;
 grid on;
