@@ -1,17 +1,17 @@
 %% definice konstant
-T_poc = 23 + 273.15;
+T_poc = 21 + 273.15;
 m = 0.004; %hmotnost
 c_p = 500; %tep. kapacita.
-T_ok = 23 + 273.15; %musi byt v kelvinech
+T_ok = 21 + 273.15; %musi byt v kelvinech
 
-A = 0.0012; %ploacha
+A = 7e-4;  %ploacha
 
 
 U = 10; %koeficient přestupu do okolí
 sigma = 5.670374e-8; %stefan-boltzmanova konstanta
-epsilon = 0.9; %emisivita
+epsilon = 0.5; %emisivita
 
-alfa = 0.02; %převod z procent na watty
+alfa = 0.01; %převod z procent na watty
 
 %% Spuštění simulace pro pozdější porovnání
 out = sim("mat_model_1_teleso.slx");

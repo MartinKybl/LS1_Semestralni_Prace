@@ -230,12 +230,16 @@ $$m c_p \dot{T}_2 = \alpha Q_2 - U A (T_2 - T_{ok}) - \varepsilon \sigma A (T_2^
 Po dosazení a upravení:
 
 \textbf{Těleso 1}
-$$m c_p \dot{T}_1 = \alpha Q_1 - U A (T_1 - T_{ok}) - \varepsilon \sigma A (T_1^4 - T_{ok}^4) - U A_{int} (T_1 - T_2) - \varepsilon \sigma A_{int} (T_1^4 - T_2^4)$$
-
+\begin{equation}
+    \label{eq:matModel_2t_1}
+m c_p \dot{T}_1 = \alpha Q_1 - U A (T_1 - T_{ok}) - \varepsilon \sigma A (T_1^4 - T_{ok}^4) - U A_{int} (T_1 - T_2) - \varepsilon \sigma A_{int} (T_1^4 - T_2^4)
+\end{equation}
 
 \textbf{Těleso 2}
-$$m c_p \dot{T}_2 = \alpha Q_2 - U A (T_2 - T_{ok}) - \varepsilon \sigma A (T_2^4 - T_{ok}^4) + U A_{int} (T_1 - T_2) + \varepsilon \sigma A_{int} (T_1^4 - T_2^4)$$
-
+\begin{equation}
+    \label{eq:matModel_2t_2}
+m c_p \dot{T}_2 = \alpha Q_2 - U A (T_2 - T_{ok}) - \varepsilon \sigma A (T_2^4 - T_{ok}^4) + U A_{int} (T_1 - T_2) + \varepsilon \sigma A_{int} (T_1^4 - T_2^4)
+\end{equation}
 Pro zachování zákonu energie jsou členy $Q_r$ a $Q_c$ v druhé rovnici s opačným znaménkem.
 
 \subsubsection*{Simulink}
@@ -265,6 +269,64 @@ Pokud porovnáme průběh simualce a reálného systému můžeme vidět několi
 \textbf{Závěr:} Rozdíly u neaktivních těles mohou být způsobeny tím, že simulace uvažuje sdílení tepla pouze přes proudění a vyzařování. Samotné tělesa jsou, ale umístěny blízko sebe na jedné desce plošných spojů, tudíž dochází vedení tepla i přes tuto společnou desku.
 
 Nepřesné ale mohou být i výrobcem dodané parametry, jako například koeficient přestupu tepla $U$, emistivita $\varepsilon$ a určení ploch $A$ a $A_{int}$. Rozdíl v jakémkoliv z těchto koeficientů by nám dal odlišní výsledek tohoto experimentu.
+
+\section{Linearizace modelu, vnitřní a vnější popis, analýza vlastností}
+\subsection{Odvození linearizovaného modelu systému}
+Pro linearizaci systému dvou těles, pro který jsme odvodili soustavu differnciálních rovnic, jsme si zavedli nové konstanty, abychom zjednodušili zápis systému:
+
+$$k_1 = \frac{U \cdot A}{m \cdot c_p} \quad k_2 = \frac{\varepsilon \cdot \sigma \cdot A}{m \cdot c_p} \quad k_3 = \frac{U \cdot A_{int}}{m \cdot c_p}$$
+
+$$k_4 = \frac{\varepsilon \cdot \sigma \cdot A_{int}}{m \cdot c_p} \quad k_5 = \frac{\alpha}{m \cdot c_p}$$
+
+Soustava differnciálních rovnic poté vypadá následnovně:
+\begin{equation}
+    \label{eq:konst_mod_2t_1}
+\dot{T}_1 = k_5 Q_1 - k_1(T_1 - T_{ok}) - k_2(T_1^4 - T_{ok}^4) - k_3(T_1 - T_2) - k_4(T_1^4 - T_2^4)
+\end{equation}
+\begin{equation}
+    \label{eq:konst_mod_2t_2}
+\dot{T}_2 = k_5 Q_2 - k_1(T_2 - T_{ok}) - k_2(T_2^4 - T_{ok}^4) + k_3(T_1 - T_2) + k_4(T_1^4 - T_2^4)
+\end{equation}
+\textbf{Ustálené stavy:}
+$$Q_1 (t) = Q_{10}$$
+$$Q_2 (t) = Q_{20}$$
+$$T_1 (t) = T_{10} = konst.$$
+$$T_2 (t) = T_{20} = konst.$$
+$$\dot{T_1} = \dot{T_2} = 0$$
+
+Tedy $F_1$ a $F_2$ jsou:
+\begin{equation}
+    \label{eq:F1}
+F_1 = k_5 Q_{10} - k_1(T_{10} - T_{ok}) - k_2(T_{10}^4 - T_{ok}^4) - k_3(T_{10} - T_{20}) - k_4(T_{10}^4 - T_{20}^4)
+\end{equation}
+\begin{equation}
+    \label{eq:F2}
+F_2 = k_5 Q_{20} - k_1(T_{20} - T_{ok}) - k_2(T_{20}^4 - T_{ok}^4) + k_3(T_{10} - T_{20}) + k_4(T_{10}^4 - T_{20}^4)
+\end{equation}
+
+Matice A a B se poté rovnaji parciálním derivací funkcí $F_1$ a $F_2$ v pracovním bodě $x_0 = [T_{10}, T_{20}]^T$ pro konstantní vstupy $u_0 = [Q_{10}, Q_{20}]^T$ a podmínky ustáleného stavu $\dot{x_0} = f(x_0, u_0) = 0$:
+
+\begin{equation}
+    \label{eq:A}
+\mathbf{A} = \begin{bmatrix} \frac{\partial f_1}{\partial T_1} & \frac{\partial f_1}{\partial T_2} \\ \frac{\partial f_2}{\partial T_1} & \frac{\partial f_2}{\partial T_2} \end{bmatrix}_{\mathbf{x}_0, \mathbf{u}_0} = \begin{bmatrix} -k_1 - k_3 - 4(k_2 + k_4)T_{10}^3 & k_3 + 4k_4 T_{20}^3 \\ k_3 + 4k_4 T_{10}^3 & -k_1 - k_3 - 4(k_2 + k_4)T_{20}^3 \end{bmatrix}
+\end{equation}
+\begin{equation}
+    \label{eq:B}
+\mathbf{B} = \begin{bmatrix} \frac{\partial f_1}{\partial Q_1} & \frac{\partial f_1}{\partial Q_2} \\ \frac{\partial f_2}{\partial Q_1} & \frac{\partial f_2}{\partial Q_2} \end{bmatrix}_{\mathbf{x}_0, \mathbf{u}_0} = \begin{bmatrix} k_5 & 0 \\ 0 & k_5 \end{bmatrix}
+\end{equation}
+\begin{equation}
+    \label{eq:C_D}
+\mathbf{C} = \begin{bmatrix} 1 & 0 \\ 0 & 1 \end{bmatrix}, \quad \mathbf{D} = \begin{bmatrix} 0 & 0 \\ 0 & 0 \end{bmatrix}
+\end{equation}
+
+
+\subsection{Lineární numerický model v přírůstkových souřadnicích}
+Náš pracovní bod pro vytvoření numerického modelu je:
+$$Q_{10} = 60\%$$
+$$Q_{20} = 80\%$$
+
+Ustálené teploty odpovídající pracovní bod, jsme získali soustavou algebraických rovnic
+
 
 \printbibliography
 \end{document}

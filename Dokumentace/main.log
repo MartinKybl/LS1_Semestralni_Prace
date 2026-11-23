@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.11.11)  22 NOV 2026 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.11.11)  23 NOV 2026 15:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -625,22 +625,28 @@ Package pdftex.def Info: graphs/2_f_model_vs_simul.pdf  used on input line 202.
 <pic/2_g_mat_mod_2_t.pdf, id=70, 794.97pt x 614.295pt>
 File: pic/2_g_mat_mod_2_t.pdf Graphic file (type pdf)
 <use pic/2_g_mat_mod_2_t.pdf>
-Package pdftex.def Info: pic/2_g_mat_mod_2_t.pdf  used on input line 246.
+Package pdftex.def Info: pic/2_g_mat_mod_2_t.pdf  used on input line 250.
 (pdftex.def)             Requested size: 390.0pt x 301.37274pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<graphs/2_h_model_vs_simul.pdf, id=71, 668.4975pt x 431.6125pt>
+[7]
+<graphs/2_h_model_vs_simul.pdf, id=74, 668.4975pt x 431.6125pt>
 File: graphs/2_h_model_vs_simul.pdf Graphic file (type pdf)
 <use graphs/2_h_model_vs_simul.pdf>
-Package pdftex.def Info: graphs/2_h_model_vs_simul.pdf  used on input line 256.
+Package pdftex.def Info: graphs/2_h_model_vs_simul.pdf  used on input line 260.
 (pdftex.def)             Requested size: 350.99762pt x 226.6263pt.
-[7]
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./pic/2_g_mat_mod_2_t.pdf>] [9 <./graphs/2_h_model_vs_simul.pdf>] (main.aux)
+[8 <./pic/2_g_mat_mod_2_t.pdf>] [9 <./graphs/2_h_model_vs_simul.pdf>]
+Overfull \hbox (8.1811pt too wide) detected at line 312
+[]\OT1/cmr/bx/n/12 A \OT1/cmr/m/n/12 = [][] = []
+ []
+
+[10] [11] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2021/03/21>
@@ -650,17 +656,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16340 strings out of 467690
- 293996 string characters out of 5414965
- 1145171 words of memory out of 10000000
- 45242 multiletter control sequences out of 15000+600000
- 639395 words of font info for 64 fonts, out of 8000000 for 9000
+ 16357 strings out of 467690
+ 294221 string characters out of 5414965
+ 1149404 words of memory out of 10000000
+ 45256 multiletter control sequences out of 15000+600000
+ 640323 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,81p,1310b,2846s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (10 pages, 634657 bytes).
+ <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (12 pages, 672303 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
+ 547 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
