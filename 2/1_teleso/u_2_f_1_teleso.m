@@ -20,7 +20,6 @@ out = sim("mat_model_1_teleso.slx");
 tclab;
 
 
-h1 = @(level) writePWMDutyCycle(a,'D3',max(0,min(100,level))*1.0/100);
 
 % Nastavení obou topení na 0
 h1(0); 
