@@ -1,25 +1,25 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.11.11)  23 NOV 2026 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.11.11)  24 NOV 2026 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex
-(d:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
+**c:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex
+(c:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-09-09>
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
@@ -28,23 +28,23 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
-\babel@savecnt=\count283
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
+Package: babel 2026/10/15 v26.14 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2118.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2120.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2122.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2123.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2124.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2126.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2151.
 \U@D=\dimen151
 \l@unhyphenated=\language79
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count284
+\bbl@dirlevel=\count285
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4206.
+(babel)             Reported on input line 4366.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -52,20 +52,20 @@ Package babel Info: Configuration files are deprecated, as
 (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/cs\babel-czech.tex)
-Package babel Info: Importing font and identification data for czech
-(babel)             from babel-cs.ini. Reported on input line 4330.
+Package babel Info: Importing font and identification data for 'czech'
+(babel)             from babel-cs.ini. Reported on input line 4494.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/babel-czech\czech.ldf
 Language: czech 2008/07/06 v3.1a Czech support from the babel system
 Package babel Info: Making " an active character on input line 172.
-\cs@wordlen=\count285
+\cs@wordlen=\count286
 Package babel Info: Making - an active character on input line 226.
 )) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
@@ -80,7 +80,7 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
+Package: amsmath 2026/05/19 v2.18d AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
@@ -96,14 +96,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count286
+\inf@bad=\count287
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count287
-\leftroot@=\count288
+\uproot@=\count288
+\leftroot@=\count289
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count289
-\DOTSCASE@=\count290
+\classnum@=\count290
+\DOTSCASE@=\count291
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -116,20 +116,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen156
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count291
+\macc@depth=\count292
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count292
+\c@MaxMatrixCols=\count293
 \dotsspace@=\muskip17
-\c@parentequation=\count293
-\dspbrk@lvl=\count294
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
 \tag@help=\toks21
-\row@=\count295
-\column@=\count296
-\maxfields@=\count297
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
 \andhelp@=\toks22
 \eqnshift@=\dimen157
 \alignsep@=\dimen158
@@ -141,11 +141,11 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip52
 \multlinetaggap=\skip53
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
+LaTeX Info: Redefining \[ on input line 2965.
+LaTeX Info: Redefining \] on input line 2966.
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count298
+\c@float@type=\count299
 \float@exts=\toks25
 \float@box=\box55
 \@float@everytoks=\toks26
@@ -164,57 +164,50 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen170
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count299
-\c@continuedfloat=\count300
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
 Package caption Info: float package is loaded.
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count301
+\lst@mode=\count302
 \lst@gtempboxa=\box57
 \lst@token=\toks27
-\lst@length=\count302
+\lst@length=\count303
 \lst@currlwidth=\dimen171
-\lst@column=\count303
-\lst@pos=\count304
+\lst@column=\count304
+\lst@pos=\count305
 \lst@lostspace=\dimen172
 \lst@width=\dimen173
-\lst@newlines=\count305
-\lst@lineno=\count306
+\lst@newlines=\count306
+\lst@lineno=\count307
 \lst@maxwidth=\dimen174
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count307
-\lst@skipnumbers=\count308
+\c@lstnumber=\count308
+\lst@skipnumbers=\count309
 \lst@framebox=\box58
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
-
-==> First Aid for listings.sty no longer applied!
-    Expected:
-        2024/09/23 1.10c (Carsten Heinz)
-    but found:
-        2025/11/14 1.11b (Carsten Heinz)
-    so I'm assuming it got fixed.
-(C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+ (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2026-05-19 v5.2p context-sensitive quotations (JAW)
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count309
+\etb@tempcnta=\count310
 )
-\csq@reset=\count310
-\csq@gtype=\count311
-\csq@glevel=\count312
-\csq@qlevel=\count313
-\csq@maxlvl=\count314
-\csq@tshold=\count315
+\csq@reset=\count311
+\csq@gtype=\count312
+\csq@glevel=\count313
+\csq@qlevel=\count314
+\csq@maxlvl=\count315
+\csq@tshold=\count316
 \csq@ltx@everypar=\toks28
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2026-05-19 v5.2p csquotes generic definitions (JAW)
@@ -224,7 +217,7 @@ Package csquotes Info: ... configuration file loaded successfully.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 )) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
+Package: biblatex 2026/09/24 v3.22a programmable bibliographies (PK/MW)
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
@@ -243,55 +236,55 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count316
+\lrq@indent=\count317
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count317
-\c@listtotal=\count318
-\c@listcount=\count319
-\c@liststart=\count320
-\c@liststop=\count321
-\c@citecount=\count322
-\c@citetotal=\count323
-\c@multicitecount=\count324
-\c@multicitetotal=\count325
-\c@instcount=\count326
-\c@maxnames=\count327
-\c@minnames=\count328
-\c@maxitems=\count329
-\c@minitems=\count330
-\c@citecounter=\count331
-\c@maxcitecounter=\count332
-\c@savedcitecounter=\count333
-\c@uniquelist=\count334
-\c@uniquename=\count335
-\c@refsection=\count336
-\c@refsegment=\count337
-\c@maxextratitle=\count338
-\c@maxextratitleyear=\count339
-\c@maxextraname=\count340
-\c@maxextradate=\count341
-\c@maxextraalpha=\count342
-\c@abbrvpenalty=\count343
-\c@highnamepenalty=\count344
-\c@lownamepenalty=\count345
-\c@maxparens=\count346
-\c@parenlevel=\count347
-\blx@tempcnta=\count348
-\blx@tempcntb=\count349
-\blx@tempcntc=\count350
-\c@blx@maxsection=\count351
-\blx@maxsegment@0=\count352
-\blx@notetype=\count353
-\blx@parenlevel@text=\count354
-\blx@parenlevel@foot=\count355
-\blx@sectionciteorder@0=\count356
-\blx@sectionciteorderinternal@0=\count357
-\blx@entrysetcounter=\count358
-\blx@biblioinstance=\count359
+\c@tabx@nest=\count318
+\c@listtotal=\count319
+\c@listcount=\count320
+\c@liststart=\count321
+\c@liststop=\count322
+\c@citecount=\count323
+\c@citetotal=\count324
+\c@multicitecount=\count325
+\c@multicitetotal=\count326
+\c@instcount=\count327
+\c@maxnames=\count328
+\c@minnames=\count329
+\c@maxitems=\count330
+\c@minitems=\count331
+\c@citecounter=\count332
+\c@maxcitecounter=\count333
+\c@savedcitecounter=\count334
+\c@uniquelist=\count335
+\c@uniquename=\count336
+\c@refsection=\count337
+\c@refsegment=\count338
+\c@maxextratitle=\count339
+\c@maxextratitleyear=\count340
+\c@maxextraname=\count341
+\c@maxextradate=\count342
+\c@maxextraalpha=\count343
+\c@abbrvpenalty=\count344
+\c@highnamepenalty=\count345
+\c@lownamepenalty=\count346
+\c@maxparens=\count347
+\c@parenlevel=\count348
+\blx@tempcnta=\count349
+\blx@tempcntb=\count350
+\blx@tempcntc=\count351
+\c@blx@maxsection=\count352
+\blx@maxsegment@0=\count353
+\blx@notetype=\count354
+\blx@parenlevel@text=\count355
+\blx@parenlevel@foot=\count356
+\blx@sectionciteorder@0=\count357
+\blx@sectionciteorderinternal@0=\count358
+\blx@entrysetcounter=\count359
+\blx@biblioinstance=\count360
 \labelnumberwidth=\skip54
 \labelalphawidth=\skip55
 \biblabelsep=\skip56
@@ -303,13 +296,13 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count360
-\c@maxcomprange=\count361
-\c@mincompwidth=\count362
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
+File: blx-dm.def 2026/09/24 v3.22a biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'iso-numeric.dbx' found.
@@ -318,76 +311,76 @@ File: iso-numeric.dbx 2022/03/20 v0.4.1 ISO 690 biblatex data model extension
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count363
-\c@savedafterword=\count364
-\c@annotator=\count365
-\c@savedannotator=\count366
-\c@author=\count367
-\c@savedauthor=\count368
-\c@bookauthor=\count369
-\c@savedbookauthor=\count370
-\c@commentator=\count371
-\c@savedcommentator=\count372
-\c@editor=\count373
-\c@savededitor=\count374
-\c@editora=\count375
-\c@savededitora=\count376
-\c@editorb=\count377
-\c@savededitorb=\count378
-\c@editorc=\count379
-\c@savededitorc=\count380
-\c@foreword=\count381
-\c@savedforeword=\count382
-\c@holder=\count383
-\c@savedholder=\count384
-\c@introduction=\count385
-\c@savedintroduction=\count386
-\c@namea=\count387
-\c@savednamea=\count388
-\c@nameb=\count389
-\c@savednameb=\count390
-\c@namec=\count391
-\c@savednamec=\count392
-\c@translator=\count393
-\c@savedtranslator=\count394
-\c@shortauthor=\count395
-\c@savedshortauthor=\count396
-\c@shorteditor=\count397
-\c@savedshorteditor=\count398
-\c@supervisor=\count399
-\c@savedsupervisor=\count400
-\c@labelname=\count401
-\c@savedlabelname=\count402
-\c@institution=\count403
-\c@savedinstitution=\count404
-\c@lista=\count405
-\c@savedlista=\count406
-\c@listb=\count407
-\c@savedlistb=\count408
-\c@listc=\count409
-\c@savedlistc=\count410
-\c@listd=\count411
-\c@savedlistd=\count412
-\c@liste=\count413
-\c@savedliste=\count414
-\c@listf=\count415
-\c@savedlistf=\count416
-\c@location=\count417
-\c@savedlocation=\count418
-\c@organization=\count419
-\c@savedorganization=\count420
-\c@origlocation=\count421
-\c@savedoriglocation=\count422
-\c@origpublisher=\count423
-\c@savedorigpublisher=\count424
-\c@publisher=\count425
-\c@savedpublisher=\count426
-\c@language=\count427
-\c@savedlanguage=\count428
-\c@origlanguage=\count429
-\c@savedoriglanguage=\count430
-\c@pageref=\count431
-\c@savedpageref=\count432
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@supervisor=\count400
+\c@savedsupervisor=\count401
+\c@labelname=\count402
+\c@savedlabelname=\count403
+\c@institution=\count404
+\c@savedinstitution=\count405
+\c@lista=\count406
+\c@savedlista=\count407
+\c@listb=\count408
+\c@savedlistb=\count409
+\c@listc=\count410
+\c@savedlistc=\count411
+\c@listd=\count412
+\c@savedlistd=\count413
+\c@liste=\count414
+\c@savedliste=\count415
+\c@listf=\count416
+\c@savedlistf=\count417
+\c@location=\count418
+\c@savedlocation=\count419
+\c@organization=\count420
+\c@savedorganization=\count421
+\c@origlocation=\count422
+\c@savedoriglocation=\count423
+\c@origpublisher=\count424
+\c@savedorigpublisher=\count425
+\c@publisher=\count426
+\c@savedpublisher=\count427
+\c@language=\count428
+\c@savedlanguage=\count429
+\c@origlanguage=\count430
+\c@savedoriglanguage=\count431
+\c@pageref=\count432
+\c@savedpageref=\count433
 \shorthandwidth=\skip62
 \shortjournalwidth=\skip63
 \shortserieswidth=\skip64
@@ -405,25 +398,25 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
+File: blx-compat.def 2026/09/24 v3.22a biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count433
-\c@textcitetotal=\count434
-\c@textcitemaxnames=\count435
-\c@biburlbigbreakpenalty=\count436
-\c@biburlbreakpenalty=\count437
-\c@biburlnumpenalty=\count438
-\c@biburlucpenalty=\count439
-\c@biburllcpenalty=\count440
+File: biblatex.def 2026/09/24 v3.22a biblatex compatibility (PK/MW)
+\c@textcitecount=\count434
+\c@textcitetotal=\count435
+\c@textcitemaxnames=\count436
+\c@biburlbigbreakpenalty=\count437
+\c@biburlbreakpenalty=\count438
+\c@biburlnumpenalty=\count439
+\c@biburlucpenalty=\count440
+\c@biburllcpenalty=\count441
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count441
+\c@smartand=\count442
 )
 Package biblatex Info: Trying to load bibliography style 'iso-numeric'...
 Package biblatex Info: ... file 'iso-numeric.bbx' found.
@@ -432,14 +425,14 @@ File: iso-numeric.bbx 2022/03/20 v0.4.1 ISO 690 biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'iso'...
 Package biblatex Info: ... file 'iso.bbx' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\iso.bbx
-File: iso.bbx 2022/03/20 v0.4.1 ISO 690 biblatex bibliography style
- (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/regexpatch\regexpatch.sty (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2026-03-20 L3 programming layer (loader) 
- (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count442
+File: iso.bbx 2026/11/17 v0.4.3 ISO 690 biblatex bibliography style
+ (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-09-09 L3 programming layer (loader) 
+ (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\l3backend-pdftex.def
+File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count443
 ))
-Package: regexpatch 2021/03/21 v0.2f Extending etoolbox patching commands
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 ))
@@ -469,7 +462,7 @@ File: iso-numeric.cbx 2022/03/20 v0.4.1 ISO 690 biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+File: numeric.cbx 2026/09/24 v3.22a biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -499,11 +492,11 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2026-03-20 L3 programming layer (loader) 
+(biblatex)             2026-09-09 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
-Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
+Package: blx-case-expl3 2026/09/24 v3.22a expl3 case changing code for biblatex
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -531,16 +524,16 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count443
+\scratchcounter=\count444
 \scratchdimen=\dimen175
 \scratchbox=\box59
-\nofMPsegments=\count444
-\nofMParguments=\count445
+\nofMPsegments=\count445
+\nofMParguments=\count446
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count446
+\MPscratchCnt=\count447
 \MPscratchDim=\dimen176
-\MPnumerator=\count447
-\makeMPintoPDFobject=\count448
+\MPnumerator=\count448
+\makeMPintoPDFobject=\count449
 \everyMPtoPDFconversion=\toks30
 ) (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -551,7 +544,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count449
+\c@lstlisting=\count450
 Package biblatex Info: Trying to load language 'czech' -> 'czech-iso'...
 Package biblatex Info: ... file 'czech-iso.lbx' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-iso690\czech-iso.lbx
@@ -559,12 +552,12 @@ File: czech-iso.lbx 2022/03/20 v0.4.1 ISO 690 extended biblatex localization
 Package biblatex Info: Trying to load language 'czech'...
 Package biblatex Info: ... file 'czech.lbx' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\czech.lbx
-File: czech.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+File: czech.lbx 2026/09/24 v3.22a biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load language 'czech'...
 Package biblatex Info: ... file 'czech.lbx' found.
  (C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\czech.lbx
-File: czech.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+File: czech.lbx 2026/09/24 v3.22a biblatex localization (PK/MW)
 ))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -576,6 +569,7 @@ Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
 Package biblatex Info: Reference section=0 on input line 18.
 Package biblatex Info: Reference segment=0 on input line 18.
+Package babel Info: Main language set to 'czech'.
 <pic/FAV_cmyk.png, id=1, 597.432pt x 293.1753pt>
 File: pic/FAV_cmyk.png Graphic file (type png)
 <use pic/FAV_cmyk.png>
@@ -632,41 +626,41 @@ Package pdftex.def Info: pic/2_g_mat_mod_2_t.pdf  used on input line 250.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7]
-<graphs/2_h_model_vs_simul.pdf, id=74, 668.4975pt x 431.6125pt>
-File: graphs/2_h_model_vs_simul.pdf Graphic file (type pdf)
-<use graphs/2_h_model_vs_simul.pdf>
-Package pdftex.def Info: graphs/2_h_model_vs_simul.pdf  used on input line 260.
-(pdftex.def)             Requested size: 350.99762pt x 226.6263pt.
+<graphs/2_h_model_vs_simul_nove_konst.pdf, id=74, 454.69875pt x 290.08376pt>
+File: graphs/2_h_model_vs_simul_nove_konst.pdf Graphic file (type pdf)
+<use graphs/2_h_model_vs_simul_nove_konst.pdf>
+Package pdftex.def Info: graphs/2_h_model_vs_simul_nove_konst.pdf  used on input line 260.
+(pdftex.def)             Requested size: 350.99762pt x 223.9273pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./pic/2_g_mat_mod_2_t.pdf>] [9 <./graphs/2_h_model_vs_simul.pdf>]
-Overfull \hbox (8.1811pt too wide) detected at line 312
+[8 <./pic/2_g_mat_mod_2_t.pdf>] [9 <./graphs/2_h_model_vs_simul_nove_konst.pdf>]
+Overfull \hbox (8.1811pt too wide) detected at line 313
 []\OT1/cmr/bx/n/12 A \OT1/cmr/m/n/12 = [][] = []
  []
 
 [10] [11] (main.aux)
  ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2021/03/21>
+LaTeX2e <2026-06-01>
+L3 programming layer <2020/03/25>
  ***********
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16357 strings out of 467690
- 294221 string characters out of 5414965
- 1149404 words of memory out of 10000000
- 45256 multiletter control sequences out of 15000+600000
- 640323 words of font info for 67 fonts, out of 8000000 for 9000
+ 16523 strings out of 467392
+ 300612 string characters out of 5405638
+ 1148907 words of memory out of 5000000
+ 45717 multiletter control sequences out of 15000+600000
+ 641091 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,81p,1310b,2846s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,11n,81p,1339b,2845s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\lukas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (12 pages, 672303 bytes).
+Output written on main.pdf (12 pages, 676550 bytes).
 PDF statistics:
- 547 PDF objects out of 1000 (max. 8388607)
+ 549 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

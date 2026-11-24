@@ -257,16 +257,17 @@ Pro ověření rovnic jsme zopakovli experminet 2.f pro systém s dvěmi tělesi
 
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.9\textwidth]{graphs/2_h_model_vs_simul.pdf}
+    \includegraphics[width=0.9\textwidth]{graphs/2_h_model_vs_simul_nove_konst.pdf}
     \caption{Srovnání simulace a reálného systému pro dvě tělesa}
     \label{g:2_h_porovnani}
 \end{figure}
 
 Pokud se podíváme na průběh experimentu (viz Graf \ref{g:2_h_porovnani}), můžeme vidět, že se topná tělesa ovlivňují navzájem, jelikož i přestože těleso 2 bylo vypnuté, jeho teplta se zvyšovala.
 
-Pokud porovnáme průběh simualce a reálného systému můžeme vidět několik rozdílů. Například při prvním ustálení teplot se simulační a reálný systém shoduje u aktivního tělesa. U neaktivního tělesa se ale výrazně odlišuje ustálená teplota těchto dvou systémů. Stejně tomu tak je i při druhých ustálených teplot, kde se opět systémy shodují pouze u aktivních těles. Výsledná teplota na konci experimentu se již neshoduje ani u jednoho tělesa.
+Pokud porovnáme průběh simualce a reálného systému můžeme vidět několik rozdílů. Například je patrné, že reálný systém reaguje rychleji na skokovou změnu výkonu než simulace, čímž dosáhne simuliace i nižší teploty (60 °C) než reálný systém (65 °C). Naopak ustálená hodnota teploty u vypnutého tělesa se shoduje s reálným systémem (38 °C).
+V druhé části experimentu, se hodnoty zapnutého tělesa (56 °C) a simulace rozcházejí (47 °C) a ustálena hodnota vyplnutého tělese se věrně shoduje se simulací. Výsledné teploty se ale liší (rozdíl 4 °C).
 
-\textbf{Závěr:} Rozdíly u neaktivních těles mohou být způsobeny tím, že simulace uvažuje sdílení tepla pouze přes proudění a vyzařování. Samotné tělesa jsou, ale umístěny blízko sebe na jedné desce plošných spojů, tudíž dochází vedení tepla i přes tuto společnou desku.
+\textbf{Závěr:} 
 
 Nepřesné ale mohou být i výrobcem dodané parametry, jako například koeficient přestupu tepla $U$, emistivita $\varepsilon$ a určení ploch $A$ a $A_{int}$. Rozdíl v jakémkoliv z těchto koeficientů by nám dal odlišní výsledek tohoto experimentu.
 
