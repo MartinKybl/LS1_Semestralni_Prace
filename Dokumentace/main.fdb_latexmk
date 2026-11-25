@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber main"] 1795525264.06216 "main.bcf" "main.bbl" "main" 1795529431.09226 0
+["biber main"] 0 "main.bcf" "main.bbl" "main" 1795610761.96129 -1
   "citations.bib" 1795508936 305 467c3af3346b3af35b9e790739407d2f ""
-  "main.bcf" 1795529430 109187 8a7a4c036c8f139c1187e3f117b56664 "pdflatex"
+  "main.bcf" 1795610760 109187 8a7a4c036c8f139c1187e3f117b56664 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1795529425.18807 "c:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" "main.pdf" "main" 1795529431.09516 0
+["pdflatex"] 1795610756.22514 "c:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" "main.pdf" "main" 1795610761.96382 0
   "C:/Users/lukas/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1795525148 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/lukas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1795525245 31952 e85ea594232d58491e7d1de78b37dd0f ""
   "C:/Users/lukas/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1795525249 40136 ede9aae3265cfffb5c2410802e7d28ed ""
@@ -43,6 +43,8 @@
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr6.tfm" 1136765053 1300 b62933e007d01cfd073f79b963c01526 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss12.tfm" 1136765053 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
+  "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmss8.tfm" 1136765053 1296 d77f431d10d47c8ea2cc18cf45346274 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
@@ -54,6 +56,7 @@
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb" 1247596667 24420 52dbb8e8aa0069a1b987309557f8d303 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -121,14 +124,16 @@
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty" 1780057721 1618 f5cceb71fcc065545e7fa0f2a5b82a4b ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/lukas/AppData/Local/Programs/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
-  "c:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" 1795529423 19228 b35f6f7eafa9dad4ea85e7e42f6bd7ec ""
-  "graphs/2_f_model_vs_simul.pdf" 1795508936 49919 68d7026ee2a44ab69f23625dc588be79 ""
-  "graphs/2_h_model_vs_simul_nove_konst.pdf" 1795508936 75752 301c0105aea8e248bde3af7dfc7b6a24 ""
+  "c:/ZCU_semestralni_prace/LS1_Semestralni_Prace/Dokumentace/main.tex" 1795610747 27335 9b05c90dcefbbfc2ee7ab39ac0f39a73 ""
+  "graphs/2_f_model_vs_simul.pdf" 1795508936 51529 4686a0c633021030d2f052fa9afa4937 ""
+  "graphs/2_h_model_vs_simul.pdf" 1795588478 74293 aaec2f06450cf371dce32dec0b2c17b4 ""
   "graphs/2d_odezva.pdf" 1795508936 36713 dc37398d99ed02067750571fbfc9f1af ""
-  "main.aux" 1795529430 4649 d6402e4d31e39629bdd12922a9f5b150 "pdflatex"
+  "graphs/3_c_porovnani.pdf" 1795610179 25444 994551f71e79efd1b4047c4d8126ba86 ""
+  "graphs/3_d_zavislost.pdf" 1795610596 18772 5499c595120c1f1de46be0afef5180e3 ""
+  "main.aux" 1795610760 5774 a0095030d9f07a8e202188f45297cebc "pdflatex"
   "main.bbl" 1795525272 2029 ba4fa3b50a030c600fd79f55c0c42b0c "biber main"
-  "main.run.xml" 1795529430 2440 e014be9d8196e6a05217c9a9203948e9 "pdflatex"
-  "main.tex" 1795529423 19228 b35f6f7eafa9dad4ea85e7e42f6bd7ec ""
+  "main.run.xml" 1795610760 2440 e014be9d8196e6a05217c9a9203948e9 "pdflatex"
+  "main.tex" 1795610747 27335 9b05c90dcefbbfc2ee7ab39ac0f39a73 ""
   "pic/2_g_mat_mod_2_t.pdf" 1795508936 134390 dc1e723ccef5ae25f88754ab86aa656d ""
   "pic/FAV_cmyk.png" 1791969700 43683 d0dc2d88366ce9b050b0e5863d3ff1ed ""
   "pic/KKY_logo_cz_large.png" 1791969700 63184 a45cf693c48c8dc1543ce8f92d968501 ""
