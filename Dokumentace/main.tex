@@ -346,7 +346,7 @@ Po dosazení těchto ustálených hodnot a ostatních konstant do matic A, B, C 
 
 \subsection{Výpočet a vykteslení statické charakteistiky}
 
-Ustálený stav linearizovaného stavového modelu z bodu~3b nastává při nulové změně stavových veličin ($\Delta\dot{\mathbf{x}} = \mathbf{0}$). Dosazením do stavových rovnic získáme vztah pro ustálenou odchylku výstupních teplot $\Delta\mathbf{y}_u = [\Delta T_{1u},\, \Delta T_{2u}]^\mathsf{T}$ v závislosti na změně vstupního výkonu $\Delta\mathbf{u} = [\Delta Q_1,\, \Delta Q_2]^\mathsf{T}$:
+Ustálený stav linearizovaného stavového modelu z bodu~3b nastává při nulové změně stavových veličin. Dosazením do stavových rovnic získáme vztah pro ustálenou odchylku výstupních teplot v závislosti na změně vstupního výkonu :
 \begin{equation}
     \mathbf{0} = \mathbf{A}\Delta\mathbf{x}_u + \mathbf{B}\Delta\mathbf{u} \implies \Delta\mathbf{y}_u = -\mathbf{C}\mathbf{A}^{-1}\mathbf{B}\,\Delta\mathbf{u} = \mathbf{K}\,\Delta\mathbf{u}
 \end{equation}
@@ -355,14 +355,12 @@ kde $\mathbf{K}$ je matice statického zesílení soustavy v pracovním bodě ($
     \mathbf{K} = \begin{bmatrix} 0{,}6644 & 0{,}2076 \\ 0{,}2768 & 0{,}4983 \end{bmatrix}\,\mathrm{K/\%}
 \end{equation}
 
-Při zafixování výkonu druhého topení na pracovní hodnotě $Q_2 = Q_{20} = 80\,\%$ ($\Delta Q_2 = 0\,\%$) a změně výkonu prvního topení v rozsahu $Q_1 \in \langle 0;\, 100 \rangle\,\%$ ($\Delta Q_1 = Q_1 - Q_{10}$) jsou ustálené teploty lineárního modelu dány přímkami:
-\begin{align}
-    T_{1u,\mathrm{lin}}(Q_1) &= T_{10} + 0{,}6644\,(Q_1 - 60) \\
-    T_{2u,\mathrm{lin}}(Q_1) &= T_{20} + 0{,}2768\,(Q_1 - 60)
-\end{align}
-Na krajích uvažovaného intervalu dosahuje lineární model hodnot $T_{1u,\mathrm{lin}}(0\,\%) = 44{,}40\,^\circ\mathrm{C}$, $T_{2u,\mathrm{lin}}(0\,\%) = 67{,}65\,^\circ\mathrm{C}$ a při plném výkonu $T_{1u,\mathrm{lin}}(100\,\%) = 110{,}84\,^\circ\mathrm{C}$, $T_{2u,\mathrm{lin}}(100\,\%) = 95{,}33\,^\circ\mathrm{C}$.
+Při konstantním výkonu druhého topení na pracovní hodnotě $Q_{20} = 80\,\%$ a změně výkonu prvního topení v rozsahu $Q_{10} \in \langle 0;\, 100 \rangle\,\%$.
 
-Statická charakteristika nelineárního modelu byla určena numerickým řešením soustavy rovnic tepelné bilance pro nulové časové derivace ($\dot{T}_1 = 0$, $\dot{T}_2 = 0$) pomocí Newtonovy metody pro diskrétní hodnoty výkonu $Q_1 \in \langle 0;\, 100 \rangle\,\%$ při konstantním $Q_{20} = 80\,\%$. Porovnání obou charakteristik je uvedeno na obr.~\ref{fig:stat_char_3c}.
+
+Na krajích uvažovaného intervalu dosahuje lineární model hodnot $T_{1u,\mathrm{lin}} = 44{,}40\,^\circ\mathrm{C}$, $T_{2u,\mathrm{lin}} = 67{,}65\,^\circ\mathrm{C}$ a při plném výkonu $T_{1u,\mathrm{lin}} = 110{,}84\,^\circ\mathrm{C}$, $T_{2u,\mathrm{lin}} = 95{,}33\,^\circ\mathrm{C}$.
+
+Statická charakteristika nelineárního modelu byla určena numerickým řešením soustavy rovnic pomocí Newtonovy metody pro diskrétní hodnoty výkonu $Q_1 \in \langle 0;\, 100 \rangle\,\%$ při konstantním $Q_{20} = 80\,\%$. Porovnání obou charakteristik je uvedeno na (viz Obrázek~\ref{fig:stat_char_3c}).
 
 \begin{figure}[htbp]
     \centering
@@ -371,27 +369,27 @@ Statická charakteristika nelineárního modelu byla určena numerickým řešen
     \label{fig:stat_char_3c}
 \end{figure}
 
-Z průběhů na obr.~\ref{fig:stat_char_3c} vyplývají následující závěry:
+\textbf{Závěr:}
 \begin{itemize}
-    \item \textbf{Shoda v pracovním bodě:} V pracovním bodě $Q_{10} = 60\,\%$ se obě křivky dotýkají a vykazují shodnou ustálenou teplotu $84{,}26\,^\circ\mathrm{C}$. Přímka lineárního modelu tvoří tečnu ke statické charakteristice nelineárního systému.
-    \item \textbf{Vliv nelinearity radiace:} Kvůli ztrátám sáláním úměrným čtvrté mocnině teploty ($T^4$) má nelineární statická charakteristika mírně konkávní průběh. Linearizovaný model proto s rostoucí vzdáleností od pracovního bodu ustálené teploty mírně nadhodnocuje.
-    \item \textbf{Přesnost aproximace:} Pro teplotu $T_1$ činí odchylka mezi modely při $Q_1 = 0\,\%$ přibližně $2{,}2\,^\circ\mathrm{C}$ ($44{,}40\,^\circ\mathrm{C}$ oproti $42{,}2\,^\circ\mathrm{C}$) a při $Q_1 = 100\,\%$ zhruba $1{,}1\,^\circ\mathrm{C}$. U druhého tělesa ($T_2$) se teplota mění v užším intervalu ($67{,}2\text{--}95{,}1\,^\circ\mathrm{C}$), takže se obě křivky téměř překrývají a maximální chyba nepřesahuje $0{,}5\,^\circ\mathrm{C}$.
+    \item \textbf{Shoda v pracovním bodě:} V pracovním bodě $Q_{10} = 60\,\%$ se obě křivky dotýkají a ukazují stejnou ustálenou teplotu $84\,^\circ\mathrm{C}$.
+    \item \textbf{Vliv nelinearity radiace:} Kvůli ztrátám vyzařováním úměrným čtvrté mocnině teploty ($T^4$) má nelineární statická charakteristika mírně konkávní průběh. Linearizovaný model proto s rostoucí vzdáleností od pracovního bodu se teplota zvyšuje.
+    \item \textbf{Přesnost aproximace:} Pro teplotu $T_1$ činí odchylka mezi modely při $Q_1 = 0\,\%$ přibližně $2\,^\circ\mathrm{C}$ ($44\,^\circ\mathrm{C}$ oproti $42\,^\circ\mathrm{C}$) a při $Q_1 = 100\,\%$ zhruba $1{,}1\,^\circ\mathrm{C}$. U druhého tělesa) se teplota mění v užším intervalu ($67\text{--}95\,^\circ\mathrm{C}$), takže se obě křivky téměř překrývají.
 \end{itemize}
 
 \subsection{Odměření statické charakteristiky na reálném systému}
 
-Pro experimentální ověření statického chování reálné soustavy TCLab bylo provedeno měření ustálených teplot obou topných těles pro šest konstantních hodnot výkonu prvního topení $Q_1 \in \{10, 25, 40, 60, 80, 100\}\,\%$. Druhé topné těleso bylo během celého experimentu vypnuto ($Q_2 = 0\,\%$), takže jeho teplota $T_2$ odráží výhradně vzájemnou tepelnou interakci od prvního tělesa. V každém pracovním bodě bylo vyčkáno do úplného ustálení přechodového děje. Naměřené ustálené hodnoty jsou shrnuty v tabulce~\ref{tab:stat_char_3d} a vyneseny do grafu na obr.~\ref{fig:stat_char_3d}.
+Pro ověření statického chování reálné soustavy TCLab jsme provedli měření ustálených teplot obou topných těles pro šest konstantních hodnot výkonu prvního topení $Q_1$. Druhé topné těleso bylo během celého experimentu vypnuté, takže jeho teplota $T_2$ závisí na vzájemné interakci od prvního tělesa. Naměřené ustálené hodnoty jsme zapsali do tabulky (viz Tabulka~\ref{tab:stat_char_3d}) a zobrazili do grafu (viz Graf~\ref{fig:stat_char_3d}).
 
 \begin{table}[htbp]
     \centering
     \caption{Naměřené ustálené teploty reálného systému TCLab pro různé výkony $Q_1$ (při $Q_2 = 0\,\%$).}
     \label{tab:stat_char_3d}
-    \begin{tabular}{c|cccccc}
+    \begin{tabular}{|c|c|c|c|c|c|c|}
         \hline
-        Výkon $Q_1\,[\mathrm{\%}]$ & $10$ & $25$ & $40$ & $60$ & $80$ & $100$ \\
+        $Q_1\,[\mathrm{\%}]$ & $10$ & $25$ & $40$ & $60$ & $80$ & $100$ \\
         \hline
-        Teplota $T_1\,[^\circ\mathrm{C}]$ & $32{,}0$ & $44{,}5$ & $58{,}0$ & $76{,}0$ & $88{,}5$ & $100{,}0$ \\
-        Teplota $T_2\,[^\circ\mathrm{C}]$ & $26{,}5$ & $30{,}5$ & $34{,}5$ & $42{,}0$ & $45{,}0$ & $47{,}0$ \\
+        $T_1\,[^\circ\mathrm{C}]$ & $32{,}0$ & $44{,}5$ & $58{,}0$ & $76{,}0$ & $88{,}5$ & $100{,}0$ \\
+        $T_2\,[^\circ\mathrm{C}]$ & $26{,}5$ & $30{,}5$ & $34{,}5$ & $42{,}0$ & $45{,}0$ & $47{,}0$ \\
         \hline
     \end{tabular}
 \end{table}
@@ -399,16 +397,15 @@ Pro experimentální ověření statického chování reálné soustavy TCLab by
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.95\textwidth]{graphs/3_d_zavislost.pdf}
-    \caption{Experimentálně odměřená statická charakteristika reálného systému TCLab pro těleso~1 a těleso~2 ($Q_2 = 0\,\%$).}
+    \caption{Naměřená statická charakteristika reálného systému}
     \label{fig:stat_char_3d}
 \end{figure}
 
-Srovnání experimentálně získaných výsledků s nelineárním a linearizovaným modelem z bodů~3b a~3c ukazuje následující shody a odlišnosti:
-\begin{itemize}
-    \item \textbf{Nelineární konkávní průběh:} Naměřené statické charakteristiky obou těles potvrzují nelineární (mírně konkávní) charakter soustavy. Zatímco v dolní a střední části rozsahu ($Q_1 \in \langle 10;\, 60 \rangle\,\%$) roste teplota $T_1$ se sklonem přibližně $0{,}88\,\mathrm{K/\%}$ a interakční teplota $T_2$ se sklonem $0{,}31\,\mathrm{K/\%}$ (což je velmi blízké linearizovanému interakčnímu zesílení $K_{21} = 0{,}2768\,\mathrm{K/\%}$ z bodu~3c), při vyšších výkonech ($Q_1 > 60\,\%$) nárůst teplot zpomaluje v důsledku rostoucích ztrát sáláním ($\propto T^4$).
-    \item \textbf{Posun pracovního bodu vůči modelu z bodu~3c:} Absolutní hodnoty teplot v naměřeném grafu leží níže než v simulaci z bodu~3c ($T_1 \in \langle 32{,}0;\, 100{,}0 \rangle\,^\circ\mathrm{C}$ a $T_2 \in \langle 26{,}5;\, 47{,}0 \rangle\,^\circ\mathrm{C}$ oproti modelovým rozsahům $42{,}2\text{--}110{,}8\,^\circ\mathrm{C}$ a $67{,}2\text{--}95{,}3\,^\circ\mathrm{C}$). Hlavním důvodem je skutečnost, že při měření bylo druhé topení vypnuto ($Q_2 = 0\,\%$), zatímco modely v bodě~3c byly vyhodnoceny kolem pracovního bodu s aktivním druhým topením ($Q_{20} = 80\,\%$), které obě tělesa dodatečně ohřívalo.
-    \item \textbf{Fyzikální odchylky reálné soustavy od modelu:} Zbývající rozdíly mezi chováním reálného přípravku TCLab a matematickým modelem jsou způsobeny zjednodušeními při modelování -- zejména zanedbáním vedení tepla přes společnou desku plošných spojů (PCB), rozdíly mezi katalogovými a skutečnými parametry přestupu tepla ($U$, $\varepsilon$) a odchylkami v účinnosti převodu výkonu topných článků ($\alpha_1, \alpha_2$).
-\end{itemize}
+
+Naměřené statické charakteristiky obou těles potvrzují nelineární chování soustavy. V první polovině je nárůst teplot větší, ale při výšším výkonu nárůst teplot zpomaluje a to z důvodu rostoucích ztrát vyzařováním ($\propto T^4$).
+    
+Rozdíly mezi chováním reálného systému a matematickým modelem jsou způsobeny zjednodušeními při modelování -- například zanedbáním vedení tepla přes společnou desku plošných spojů, chyby mohli vzniknout ale take rozdíly mezi teoretickými a skutečnými parametry přestupu tepla ($U$, $\varepsilon$) a odchylkami v účinnosti převodu výkonu topných článků ($\alpha_1, \alpha_2$).
+
 
 \printbibliography
 \end{document}

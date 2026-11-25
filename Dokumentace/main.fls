@@ -1,6 +1,6 @@
-PWD c:\ZCU_semestralni_prace\LS1_Semestralni_Prace\Dokumentace
+PWD d:\ZCU_semestralni_prace\LS1_Semestralni_Prace\Dokumentace
 INPUT C:\Users\lukas\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\ZCU_semestralni_prace\LS1_Semestralni_Prace\Dokumentace\main.tex
+INPUT d:\ZCU_semestralni_prace\LS1_Semestralni_Prace\Dokumentace\main.tex
 OUTPUT main.log
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -120,12 +120,12 @@ INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-iso690\iso
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-iso690\iso.bbx
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-iso690\iso.bbx
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-iso690\iso.bbx
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\xpatch\xpatch.sty
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\xpatch\xpatch.sty
+INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\regexpatch\regexpatch.sty
+INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\regexpatch\regexpatch.sty
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\l3backend-pdftex.def
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\l3backend-pdftex.def
+INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\tex\latex\biblatex-iso690\iso-numeric.cbx
@@ -242,9 +242,6 @@ INPUT .\graphs\2_h_model_vs_simul.pdf
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss12.tfm
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT .\graphs\3_c_porovnani.pdf
 INPUT .\graphs\3_c_porovnani.pdf
 INPUT .\graphs\3_c_porovnani.pdf
@@ -298,8 +295,6 @@ INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss8.pfb
-INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss8.pfb
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\lukas\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
